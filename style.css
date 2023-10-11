@@ -4,7 +4,7 @@
   margin: 0px;
 }
 .body {
-  background: url(/assets/snake\ game\ bg.jpg);
+  background: url(snake\ game\ bg.jpg);
   min-height: 100vh;
   background-size: 105vw 100vh;
   background-repeat: no-repeat;
