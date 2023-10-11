@@ -37,10 +37,13 @@ function isCollide(snake) {
 function gameEngine() {
   //    snake and food
   if (isCollide(snakeArr)) {
+    
     inputDirection = { x: 0, y: 0 };
     alert("game over");
+    
     snakeArr = [{ x: 13, y: 10 }];
     score = 0;
+    scoreBox.innerHTML = "score: " + score;
   }
   // if food eaten
   if (snakeArr[0].y === food.y && snakeArr[0].x === food.x) {
