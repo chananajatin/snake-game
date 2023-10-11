@@ -1,8 +1,5 @@
 let inputDirection = { x: 0, y: 0 };
-// let foodSound = new Audio()
-// let gameOverSound = new Audio()
-// let moveSound
-//  let musicSound
+
 let speed = 19;
 let score = 0;
 let lastPaintTime = 0;
