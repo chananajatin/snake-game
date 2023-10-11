@@ -1,6 +1,6 @@
 let inputDirection = { x: 0, y: 0 };
 
-let speed = 19;
+let speed = 14;
 let score = 0;
 let lastPaintTime = 0;
 let snakeArr = [{ x: 13, y: 10 }];
